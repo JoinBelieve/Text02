@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.believe.text02.MainActivity">
+
+    <Button
+        android:id="@+id/but1"
+        android:text="AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but2"
+        android:text="ImageButton/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but3"
+        android:text="ToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but4"
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but5"
+        android:text="计算器"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but6"
+        android:text="OkHttp网络框架"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

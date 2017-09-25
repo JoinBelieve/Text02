@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/orange_selector"
+        android:text="添加一个论坛信息"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/doget"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/orange_selector"
+        android:text="查询所有用户发布论坛的信息"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/dopost"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/orange_selector"
+        android:text="查询某一个论坛的信息"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

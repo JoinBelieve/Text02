@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="types">
+        <item>猫星人</item>
+        <item>阿拉斯加</item>
+        <item>柯基</item>
+        <item>吉娃娃</item>
+    </string-array>
+</resources>

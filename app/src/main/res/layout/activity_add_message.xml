@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.believe.text02.okHttpText.AddMessageActivity">
+    <EditText
+        android:id="@+id/edit_title"
+        android:hint="请输入标题"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/type"
+        android:layout_below="@+id/edit_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <EditText
+        android:layout_below="@+id/type"
+        android:id="@+id/edit_content"
+        android:hint="请输入内容"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <Button
+        android:id="@+id/add"
+        android:layout_below="@+id/edit_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/orange_selector"
+        android:text="添加"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
